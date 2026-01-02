@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.wrapper{
+    background-color: lightpink;
+    width:100%;
+    height:1000px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.image-container {
+    position: absolute;  
+    height: 100%;
+
+}
+
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   /* image stretch ya distort nahi hogi */
+    display: block;
+}
+  
+.content h1{
+  position: absolute;
+  top: 40px;
+  left: 640px;
+  font-size: 50px;
+  color: #c5416d;
+  font-family: 'Baloo 2';
+  font-weight: 900;
+}
+
+/* //////////BLUE COLOR START  */
+
+.blueshades {
+  position: relative;
+  top: 130px;     
+  left: 680px; 
+ 
+} 
+
+.blueshades h5 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #0d47a1;
+}
+
+.blueshades div {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  border-radius: 149px 149px 149px 149px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border: 3px solid #e3f2fd}
+
+.blueshades div:hover {
+  transform: scale(1.2);          /* circle thoda bada ho jaye */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);}
+
+.blue1 {
+ background: #0d47a1; 
+ z-index: 1;
+ 
+}
+.blue2 {
+ background: #1e88e5; 
+ z-index: 2;
+ left: 35px;
+}
+.blue3 { 
+ background: #2196f3; 
+ z-index: 3;
+ left: 70px;
+}
+.blue4 {
+ background: #42a5f5;
+ left: 105px; 
+ z-index: 4;}
+
+.blue5 { 
+ background: #64b5f6;
+ left: 138px; 
+ z-index: 5; }
+
+.blue6 {
+ background: #90caf9; 
+ left: 170px; 
+ z-index: 6;}
+
+.blue7 { 
+ background: #bbdefb; 
+ left: 203px; 
+ z-index: 7;}
+
+.blue8 { 
+ background: #e3f2fd;
+ left: 235px; 
+ z-index: 8; }
+
+ /*////////////// BLUE COLOR END  */
+ /*////////////////// RED COLOR START  */
+
+.redshades {
+  position: relative;
+  top: 250px;     
+  left: 680px; 
+ 
+} 
+
+.redshades h5 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #ee1111;
+}
+
+.redshades div {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  border-radius: 149px 149px 149px 149px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border: 3px solid #e3f2fd}
+
+.redshades div:hover {
+  transform: scale(1.2);          /* circle thoda bada ho jaye */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);}
+
+.red1 {
+ background: #7f0000; 
+ z-index: 1;
+ 
+}
+.red2 {
+ background: #9a0000; 
+ z-index: 2;
+ left: 35px;
+}
+.red3 { 
+ background: #b71c1c; 
+ z-index: 3;
+ left: 70px;
+}
+.red4 {
+ background: #d32f2f;
+ left: 105px; 
+ z-index: 4;}
+
+.red5 { 
+ background: #e53935;
+ left: 138px; 
+ z-index: 5; }
+
+.red6 {
+ background:#ef5350; 
+ left: 170px; 
+ z-index: 6;}
+
+.red7 { 
+ background: #f28b82; 
+ left: 203px; 
+ z-index: 7;}
+
+.red8 { 
+ background: #fde2e2;
+ left: 235px; 
+ z-index: 8; }
+
+/* ///////////////////////RED COLOR END  */
+ 
+ /* /////////////////GREEN COLOR START  */
+
+.greenshades {
+  position: relative;
+  top: 370px;     
+  left: 680px; 
+ 
+} 
+
+.greenshades h5 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #0cca35;
+}
+
+.greenshades div {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  border-radius: 149px 149px 149px 149px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border: 3px solid #e3f2fd}
+
+.greenshades div:hover {
+  transform: scale(1.2);          /* circle thoda bada ho jaye */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);}
+
+.green1 {
+ background: #0b3d2e; 
+ z-index: 1;
+ 
+}
+.green2 {
+ background: #145a32; 
+ z-index: 2;
+ left: 35px;
+}
+
+.green3 { 
+ background: #1e7f43; 
+ z-index: 3;
+ left: 70px;
+}
+
+.green4 {
+ background: #2e8b57;
+ left: 105px; 
+ z-index: 4;}
+
+.green5 { 
+ background: #4caf50;
+ left: 138px; 
+ z-index: 5; }
+
+.green6 {
+ background:#81c784; 
+ left: 170px; 
+ z-index: 6;}
+
+.green7 { 
+ background: #a5d6a7; 
+ left: 203px; 
+ z-index: 7;}
+
+.green8 { 
+ background: #e8f5e9;
+ left: 235px; 
+ z-index: 8; }
+
+/* ///////////////////////// GREEN COLOR END  */
+
+/* ///////////////////////// ORANGE COLOR START  */
+
+
+
+.orangeshades {
+  position: relative;
+  top: 490px;     
+  left: 680px; 
+ 
+} 
+
+.orangeshades h5 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #fb6b05;
+}
+
+.orangeshades div {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  border-radius: 149px 149px 149px 149px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border: 3px solid #e3f2fd}
+
+.orangeshades div:hover {
+  transform: scale(1.2);          /* circle thoda bada ho jaye */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);}
+
+.orange1 {
+ background: #bf5700; 
+ z-index: 1;
+ 
+}
+.orange2 {
+ background: #d46b00; 
+ z-index: 2;
+ left: 35px;
+}
+
+.orange3 { 
+ background: #e07b10; 
+ z-index: 3;
+ left: 70px;
+}
+
+.orange4 {
+ background: #ef8630;
+ left: 105px; 
+ z-index: 4;}
+
+.orange5 { 
+ background: #f29c41;
+ left: 138px; 
+ z-index: 5; }
+
+.orange6 {
+ background:#f7b55b; 
+ left: 170px; 
+ z-index: 6;}
+
+.orange7 { 
+ background: #f9c67a; 
+ left: 203px; 
+ z-index: 7;}
+
+.orange8 { 
+ background: #fde9b1;
+ left: 235px; 
+ z-index: 8; }
+
+
+/* ///////////////////////// ORANGE COLOR END  */
+
+/* ///////////////////////// PURPLE COLOR START  */
+
+
+.purpleshades {
+  position: relative;
+  top: 610px;     
+  left: 680px; 
+} 
+
+.purpleshades h5 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #e60bed;
+}
+
+.purpleshades div {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  border-radius: 149px 149px 149px 149px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border: 3px solid #e3f2fd}
+
+.purpleshades div:hover {
+  transform: scale(1.2);          /* circle thoda bada ho jaye */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);}
+
+.purple1 {
+ background: #3b0a45; 
+ z-index: 1;
+ 
+}
+.purple2 {
+ background: #5a0f68; 
+ z-index: 2;
+ left: 35px;
+}
+
+.purple3 { 
+ background: #7a1e9c; 
+ z-index: 3;
+ left: 70px;
+}
+
+.purple4 {
+ background: #9332be;
+ left: 105px; 
+ z-index: 4;}
+
+.purple5 { 
+ background: #a449d6;
+ left: 138px; 
+ z-index: 5; }
+
+.purple6 {
+ background:#b06add; 
+ left: 170px; 
+ z-index: 6;}
+
+.purple7 { 
+ background: #c297e0; 
+ left: 203px; 
+ z-index: 7;}
+
+.purple8 { 
+ background: #e6d4f0;
+ left: 235px; 
+ z-index: 8; }
+
+/* ///////////////////////// PURPLE COLOR END  */
+
+/* ///////////////////////// YELLOW COLOR START */
+
+.pinkshades {
+  position: relative;
+  top: 730px;     
+  left: 680px; 
+} 
+
+.pinkshades h5 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #d80278;
+}
+
+.pinkshades div {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  border-radius: 149px 149px 149px 149px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border: 3px solid #e3f2fd}
+
+.pinkshades div:hover {
+  transform: scale(1.2);          /* circle thoda bada ho jaye */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);}
+
+.pink1 {
+ background: #800040; 
+ z-index: 1;
+ 
+}
+.pink2 {
+ background: #a00060; 
+ z-index: 2;
+ left: 35px;
+}
+
+.pink3 { 
+ background:  #c04d8e; 
+ z-index: 3;
+ left: 70px;
+}
+
+.pink4 {
+ background: #d56ea4;
+ left: 105px; 
+ z-index: 4;}
+
+.pink5 { 
+ background:  #e28aad;
+ left: 138px; 
+ z-index: 5; }
+
+.pink6 {
+ background:#f0a1bf; 
+ left: 170px; 
+ z-index: 6;}
+
+.pink7 { 
+ background:  #f6c2d6; 
+ left: 203px; 
+ z-index: 7;}
+
+.pink8 { 
+ background:  #f9e1eb;
+ left: 235px; 
+ z-index: 8; }
+
+
+
+/* ///////////////////////// YELLOW COLOR END  */
